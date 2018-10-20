@@ -24,3 +24,6 @@ a = 2. * b - a;
 
 std::cout << a << "\n";
 ```
+
+# HowTo
+To start using the project simply include `Vectors.h` header.
