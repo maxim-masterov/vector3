@@ -297,7 +297,7 @@ public:
      */
     MUSTINLINE vector3_reg cross(const vector3_reg &other) const {
         return {this->y * other.z - this->z*other.y,
-                this->x * other.z - this->z*other.x,
+                this->z * other.x - this->x*other.z,
                 this->x * other.y - this->y*other.x};
     }
 
