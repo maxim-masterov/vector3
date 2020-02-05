@@ -9,12 +9,12 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: ls -l
-    - name: check
+    - name: check_version
       run: g++ --version
-    - name: comp
+    - name: build
       run: g++ --std=c++11 src/Vectors.cpp -o test.out
+    - name: test
+      run: ./test.out
 #       run: g++ -o test.out src/Vectros.cpp
 #     - name: make
 #       run: make
