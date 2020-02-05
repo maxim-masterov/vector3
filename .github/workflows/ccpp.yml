@@ -12,7 +12,7 @@ jobs:
     - name: build
       run: ls -l
     - name: check
-      run: g++ version
+      run: g++ --version
     - name: comp
       run: g++ --std=c++11 src/Vectors.cpp -o test.out
 #       run: g++ -o test.out src/Vectros.cpp
