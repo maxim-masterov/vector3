@@ -10,7 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: g++ -o test.out src/Vectros.cpp
+      run: ls -l
+#       run: g++ -o test.out src/Vectros.cpp
 #     - name: make
 #       run: make
 #     - name: make check
