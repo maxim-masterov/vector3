@@ -392,7 +392,7 @@ public:
         }
         else
             std::cerr << "Error! Too many arguments have been passed to comma initializer "
-                "(see operator<<, vector3d_simd)..." << std::endl;
+                "(see operator<<, vector3_reg)..." << std::endl;
         return *this;
     }
 };
